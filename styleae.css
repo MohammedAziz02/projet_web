@@ -1,0 +1,318 @@
+@font-face {
+    font-family: BallparkWeiner;
+    src: url("polices/ballpark.eot"),
+      url("polices/ballpark.eot?#iefix") format("embedded-opentype"),
+      url("polices/ballpark.woff") format("woff"),
+      url("polices/ballpark.ttf") format("truetype"),
+      url("polices/ballpark.svg#BallparkWeiner") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: dayrom;
+    src: url("polices/dayrom.eot"),
+      url("polices/dayrom.eot?#iefix") format("embedded-opentype"),
+      url("polices/dayrom.woff") format("woff"),
+      url("polices/dayrom.ttf") format("truetype"),
+      url("polices/dayrom.svg#dayrom") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: dayrom;
+    color: black;
+    
+    background-image: radial-gradient(blue , rgb(0, 0, 0) );
+  }
+  /*  start headear*/
+  .contain-head {
+    background-image: url("images/separateur.png") repeat-x;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    box-shadow: 0px 5px 5px black;
+    border-radius: 10px;
+   
+  }
+  .part-left-header {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+  .ensah-h2 {
+    width: 80%;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: blue;
+  }
+  #logo {
+    width: 20%;
+  
+  }
+  .navi {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+  
+  }
+  
+  #titre-princ h2 {
+    font-size: 10px;
+  }
+  
+  #logo h1 {
+    font-size: 15px;
+  }
+  #logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+  }
+  .oli {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .oli li {
+    width: auto;
+    height: auto;
+    margin: 5px;
+  }
+  .oli a {
+    color: blue;
+  }
+  
+  header h1 {
+    font-family: "BallparkWeiner", serif;
+    font-weight: 2.5em;
+    margin: 0 0 0 10px;
+    font-style: normal;
+  }
+  header h2 {
+    font-family: "dayrom", serif;
+    font-weight: 1.1em;
+    margin-top: 0px;
+    font-style: normal;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  nav li {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px blue;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 15px;
+    font-size: 12px;
+  }
+  ul a {
+    font-size: 1.3em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+  }
+  ul a:hover {
+    color: blue;
+    border-bottom: 3px solid rgb(1, 1, 122);
+  }
+  section h1,
+  footer h1,
+  nav a {
+    font-family: "dayrom", serif;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  /* end headear*/
+  
+  /* bloc page*/
+  #Bloc_page {
+    width: 66%;
+    margin: auto;
+  }
+  /* formulaire*/
+  
+  .forum {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-image {
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    width: 100%;
+  }
+  .form-info-genral {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    width: 100%;
+  }
+  .form-indicateurs {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    width: 100%;
+  }
+  .form-cordonnes {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .buton {
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="range"],
+  input[type="email"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: blue;
+    color: white;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: blue;
+    font-size: 16px;
+    resize: none;
+    color: white;
+  }
+  select {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+  }
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  label,
+  p {
+    color: #0004ff;
+    font-weight: bold;
+  }
+  fieldset {
+    border: 0;
+    color: #0004ff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  legend {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+  }
+  /*end formulaire*/
+  /* start footer*/
+  footer {
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/ico_top.png"), url("images/separateur.png"),
+      url("images/ombre.png");
+    background-repeat: no-repeat, repeat-x, repeat-x;
+    background-position-x: center, center, center;
+    background-position-y: top, top, top;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0px 5px 5px black;
+    border-radius: 5px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  footer p ul {
+    font-size: 2px;
+  }
+  .liensutiles a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+  .liensutiles ul {
+    list-style-image: url("images/ico_liensexterne.png");
+    padding-left: 2px;
+  }
+  .contact {
+    width: 28%;
+    margin-right: 20px;
+  }
+  .galeries {
+    width: 35%;
+    margin-right: 40px;
+  }
+  .galeries img {
+    border: 1px solid black;
+    margin-right: 2px;
+  }
+  .liensutiles {
+    width: 31%;
+    margin-right: px;
+  }
+  .liensutiles a {
+    list-style-type: none;
+    color: blue;
+  }
+  .contact h4,
+  .liensutiles h4,
+  .galeries h4 {
+    text-align: center;
+  }
+  /* end footer*/
+ /* start table */
+ tr:hover {
+    background-color: blue;
+    color: white;
+  
+  }
+
+  tr{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    color: white;
+  }
+  table{
+      
+    margin-bottom: 10px;
+  }
+  th {
+    background-color: #0010f1;
+    color: white;
+  }
+  /* end table*/
+.cn a:hover{
+  background-color: white;
+}
